@@ -35,7 +35,7 @@ Remove the pywin==306 from requirements.txt and replace it with pypiwin32==223.
 Installed the latest version of python 3.12 which introduced new updates while removing old packages on which the existing dependencies require to work properly. In short, other dependencies were not updated yet with the latest python version.
 
 **Solution:**
-Always install older version of the python by at least one version from the latest i-e 3.11 instead of 3.12
+Always install older version of the python by at least one version from the latest i-e 3.11 instead of 3.12.
 This also applies to other libraries and python packages.
 
 
@@ -55,7 +55,7 @@ Getting requirements to build wheel ... error
       writing top-level names to lib3\PyYAML.egg-info\top_level.txt
 
 
-  note: This error originates from a subprocess, and is likely not a problem with pip.
+note: This error originates from a subprocess, and is likely not a problem with pip.
 error: subprocess-exited-with-error
 
 × Getting requirements to build wheel did not run successfully.
@@ -65,7 +65,7 @@ error: subprocess-exited-with-error
 note: This error originates from a subprocess, and is likely not a problem with pip.
 
 **Solution:**
-Try to install different versions especially the later versions then the existing you are trying to install.
+Try to install different versions especially the later versions then the existing version you are trying to install.
 
 
 
